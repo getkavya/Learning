@@ -1,0 +1,18 @@
+AWS development tools
+
+Friday, January 4, 2019
+10:41 AM
+
+IDE- Cloud9
+Repository - Code  Commit
+Build -- Code Build (based on Gradle)
+Deploy -  Lamda, EC2 and EBS, EKS
+             - Code Deploy service
+Pipeline Staging -- Code Pipeline
+Log Analytics -- XRAY
+Monitoring -- Cloud Watch, Cloud Trial
+Splunk is cheaper
+Notification - SNS, SMS
+Project Management - like JIRA (Code Star)
+
+Freetutorial.us

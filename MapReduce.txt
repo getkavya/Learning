@@ -1,0 +1,17 @@
+Data transfer from map to reducer.
+Map covert into vertical order
+
+ before reducer start aggregation - shuffle (each key and count of value) and sort
+
+Shuffle and sort is default program of reducer.
+
+All mapper send output to practitioner. 
+
+Map --> partitioner(hash it)(send unique key) --> Reducer.
+
+Classes
+
+	1. Driver
+	2. Mapper
+	3. Reducer (Optional class)
+Practitioner

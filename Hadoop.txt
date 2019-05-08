@@ -1,0 +1,55 @@
+Hadoop -Page1
+
+Tuesday, December 4, 2018
+10:25 AM
+
+YARN - yet another resources. To Manage resources for big data.
+Only manages resources of cluster.
+
+MapReduce - to process data.
+
+HDFS - Hadoop (2.X) - in year 2013 .. 3 logical components
+
+	1. HDFS(Storage component)
+	2. YARN(Management Component)
+	3. Map Reduce(Processing Component)
+
+Property of Hadoop- (Replication factor)   
+
+	1. Even in case of fault, data is highly available to process.
+	2. Fault tolerable
+	3. Reliable
+	
+Default factor is 3
+
+Term - Rack-1, Rack-2
+HDFS block size default is - 128MB. We can configure it through Hadoop.
+
+Slaves/Master.
+
+Master (Name Node) :- metadata in each memory
+Name Node 
+Slave (Data).
+Secondary name node, Data node
+
+Demon process - 5 demon should run
+	1. Yarn demon  - Resource manager and node manager
+	2. Resource manager, name node,  --master
+	3. Node manager, Data node -- Slave
+	4. Secondary node
+	5. Edge node --> in production … will never contact directly to name node.
+
+=====================================================
+
+Single node architecture
+-- All 5 demons run in one machine and one JVM
+Multi node architecture
+-- different machine and different JVM
+Pseudo architecture
+	- Similar to single node - on one single system only
+	- Similar to multi node - different JVM on same machine
+======================================================
+Ports
+
+Name node default port :- 50070
+Default port of Yarn - 8088

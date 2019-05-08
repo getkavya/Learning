@@ -1,0 +1,18 @@
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/getkavya/AlokGitRepo.git
+git push -u origin master
+
+git push origin master --force
+
+git pull origin master --force
+
+
+Docker run -it  -p  9999:8080 imagename
+
+gcloud container clusters resize $CLUSTER_NAME --size=0
+
+From <https://stackoverflow.com/questions/38323134/how-to-stop-gcloud-container-engine-clusters> 
+
+

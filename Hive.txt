@@ -1,0 +1,32 @@
+Partitioning and Bucketing 
+
+Static partitioning :- Load data manually into partition table
+Dynamic partitioning :-  We do not load data manually. Load data from non partition table to partition table. (insertion into table)
+
+Bucketing :- Creating more flat file under directory. File should have nearly same amount of data.
+
+Partition is directory and bucketing is flat file.
+
+Bucketed table only we can only insert data.
+Hive bucket property is by default = false. Need to set it explicitly.
+
+
+=========================
+Join 
+
+Default join in hive is map set join. No reducer.
+Map reduce join is inefficient. Reducer is doing job.
+
+File format
+
+JSON
+RC
+Parquet
+ORC
+=========================
+
+Hive is processing engine. DB is only for storage.
+
+===================================
+
+

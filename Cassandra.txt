@@ -1,0 +1,22 @@
+Efficiently writing is main aim Cassandra. Not reading.
+CAP Theorem
+
+Partition key
+Clustering key
+Remaining key
+Allow filtering for where clause 
+
+
+User define datatype
+
+	1. Commit log- Insert statement etc. SQL
+	2. Mem table - Memory
+	3. SS Table - to write in the disk
+
+
+All No SQL  databases are distributed in nature. 
+	- Partition - by default
+	- Replication factor is highly available.
+	- Replication
+	- Availability taking care of replication of data.
+Consistency -  latest data.
